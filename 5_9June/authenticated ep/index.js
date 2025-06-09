@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 let users=[];
-
+// Stateful token --- tokken getting stored in a variable/ database
 function getToken(){
     let options = [ 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n'
         , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'x' , 'y' , 'z' , '0' , '1' , '2' , '3'
