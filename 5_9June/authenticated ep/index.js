@@ -5,6 +5,10 @@ app.use(express.json());
 
 let users=[];
 // Stateful token --- tokken getting stored in a variable/ database
+
+// problem is that we need to SEND A REQUEST TO THE DATABASE EVERYTIME  the user wants to hit an 
+// AUTHENTICATED ENDPOINT
+
 function getToken(){
     let options = [ 'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' , 'i' , 'j' , 'k' , 'l' , 'm' , 'n'
         , 'n' , 'o' , 'p' , 'q' , 'r' , 's' , 't' , 'u' , 'v' , 'x' , 'y' , 'z' , '0' , '1' , '2' , '3'
