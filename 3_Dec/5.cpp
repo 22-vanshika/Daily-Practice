@@ -10,11 +10,12 @@ public:
         st = "";
       }
     }
-    while (st.length() != k && st != "") {
-      st += fill;
-    }
-    if (st != "")
+    if (st != "") {
+      while (st.length() != k) {
+        st += fill;
+      }
       ans.push_back(st);
+    }
     return ans;
   }
 };
