@@ -1,3 +1,10 @@
+map stores unique keys (no duplicates), but values can repeat
+count(key) → returns 0 or 1 → only checks if key exists
+find(key) → returns iterator → gives access to both key and value
+Use count() for simple existence check
+Use find() when you need to retrieve or work with the value
+Avoid m[key] for checking → it creates the key if not present ⚠️
+
 🔹 map
 Stores keys in sorted order (by default ascending)
 Implemented using Red-Black Tree
