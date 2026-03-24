@@ -1,3 +1,27 @@
+✌🏼deque vs vector (important comparison)
+
+vector → fast at end only
+deque → fast at both ends
+vector → contiguous memory (better cache)
+deque → slightly slower but more flexible
+
+
+🔥 Bonus (interview gold)
+
+vector → best default choice
+list → rarely used in real-world unless needed
+deque → used in sliding window problems
+priority_queue → used in greedy + heap problems
+stack/queue → mostly used for logic, not storage
+
+🔹 vector
+
+Not truly dynamic → grows by doubling capacity (amortized O(1) push_back)
+Insertion/deletion in middle = O(n) (shifting happens)
+Contiguous memory → supports indexing (arr[i])
+Iterators may become invalid after reallocation
+capacity() ≠ size()
+
 #include <iostream>
 #include <vector>
 

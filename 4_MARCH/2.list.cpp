@@ -1,3 +1,10 @@
+🔹 list (Doubly Linked List)
+No random access → list[i] ❌
+Insert/delete anywhere = O(1) (no shifting)
+Extra memory overhead (pointers)
+Better when frequent insert/delete in middle
+Iterators stay valid after insertions (unlike vector)
+
 #include <iostream>
 #include <list>
 
