@@ -97,3 +97,9 @@ Symmetric Difference: 1 2 5 6
 Difference (first - second): 1 2
 Intersection: 3 4
 Union: 1 2 3 4 5 6
+
+🔥 Subtle but important (interview-level)
+If input is NOT sorted → wrong results ⚠️
+These don’t modify original containers
+Output container must be handled separately
+Time complexity → O(n + m)
