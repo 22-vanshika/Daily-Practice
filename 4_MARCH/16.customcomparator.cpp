@@ -51,7 +51,7 @@ public:
 
 
 // ================================
-// Comparator for Integers (Sort)
+// Comparator for Integers (Sort) O(N log N)
 // ================================
 
 class IntComparator {
@@ -63,7 +63,7 @@ public:
 
 
 // ================================
-// Comparator for Priority Queue
+// Comparator for Priority Queue O(N log N)
 // ================================
 
 class StudentPQComparator {
@@ -77,7 +77,7 @@ public:
 int main() {
 
     // ================================
-    // Sorting Custom Objects
+    // Sorting Custom Objects O(N log N)
     // ================================
 
     vector<Student> students = {
@@ -108,7 +108,7 @@ int main() {
 
 
     // ================================
-    // Priority Queue with Custom Objects
+    // Priority Queue with Custom Objects O(N log N)
     // ================================
 
     priority_queue<Student, vector<Student>, StudentPQComparator> pq;
